@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 400px;
+    width: 400px;
+   object-fit: cover;
+}
+.img{
+    width:800px;
+    height: 800px;
+   background: url(download.jpg);
+   background-repeat: no-repeat;
+   object-fit: cover !important;
+}
+
+.bor{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: #1b5b3b;
+    padding: 30px;
+   
+}
+/*  */
+p{
+    font-weight: 900;
+    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+.container{
+    top: 200px;
+    left: 200px;
+    position: relative;
+    background-color: chocolate;
+    width: 500px;
+    height: 500px;
+   
+}
+.container .iki{
+    background-color: black;
+}
+/* a:active{
+    activ olan anda bir effekt verir
+    background-color: green;
+} */
+
+a:link{
+    background-color: red;
+}
+
+
+a:hover{
+    background-color: yellow;
+}
+
+a:active{
+    background-color: green;
+}
+
+.bir{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background : linear-gradient(90deg, #1b5b3b, #e05e82);
+    transition: 0.5s ease-in all;
+   
+   
+}
+
+.bir:hover{
+  
+   
+   
+}
+
+
+.iki{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: green;
+}
+.uc{
+    position: absolute;
+    left: 0;
+   bottom: 0;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: red;
+}
+.dord{
+    position: absolute;
+    right: 0;
+   bottom: 0;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+.bes{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: blue;
+}

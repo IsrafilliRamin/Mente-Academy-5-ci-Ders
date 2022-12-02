@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Playfair+Display&family=Poppins&family=Zen+Dots&display=swap');
+
+
+p{
+    font-weight: 700; /* qalinlasdirir */
+    font-family: 'Zen Dots', cursive; /* srifti deyismek */
+}
+
+input:focus{
+    background-color: chocolate;  /* focuslamaq */
+}
+input:hover{
+    background-color: rgb(30, 210, 195); /* hover */
+}
+
+input[type="password"]{
+    background-color: cornflowerblue;  /* typle tutmaq inputu */
+}
+
+.container{
+    position: relative;
+    left: 300px;
+    top: 300px;
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;     /* dasmani gizletmek */
+}
+
+.box{
+    background-color: yellow;
+    width: 70px;
+    height: 110px;
+    transition: .4s ease-in all;   /* sureti azaltmaq */
+}
+
+.box:hover{
+    background-color: red;
+    margin-left: 20px;
+    transform: scale(0.7);  /* default veziyyetden olcunu deyismek */
+    
+}
+
+
+a:hover{
+    background-color: yellow;
+}
+a:active{
+    background-color: green;  /* active edende ise salmaq */
+}
+
+a:link{
+    background-color: red;  /* default veziyyet */
+}
+
+p{
+    background: linear-gradient(blue,red,green); /* bir  nece reng vermek bir elemente */
+}
+
+
+#div{
+    height: 100px;
+    width: 100px;
+    background-color: tomato;
+    padding: 20px;
+    border: 3px solid black;
+    box-sizing: border-box; /* olculeri qoruyub saxlamaq */
+   
+}
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: lightgreen;
+   
+}
+
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover; /* sekili on hisseye getirerek olcusnu deyismeden keyfiyetini artirir */
+}
+
+#div3{
+   
+    background-image: url(wp9641838.jpg); /* div arxa hissesine sekil vermek */
+    background-size: 700px;
+    background-repeat: no-repeat; /* tekrarlamani qarsini almaq */
+    object-fit: cover;
+    background-position: left; /* yerini mueyyen etmek */
+    height: 500px;
+    width: 500px;
+    position: relative;
+}
+
+.p{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
